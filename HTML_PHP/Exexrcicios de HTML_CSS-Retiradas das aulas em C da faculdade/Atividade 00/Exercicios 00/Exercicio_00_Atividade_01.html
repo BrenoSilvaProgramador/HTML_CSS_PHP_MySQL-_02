@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Praticando formularios e praticando programação em PHP</title>
+</head>
+<body>
+	<form method="POST" action="dados.php">
+		<fieldset> <legend>Calcule sua media aqui!</legend>
+			<br>
+			<label for="xNotaUm">Nota 01</label> 
+			<input type="number" name="nota_01" id="xNotaUm" min="0" max="10"><br><br>
+
+			<label for="xNotaDois">Nota 02</label> 
+			<input type="number" name="nota_02" id="xNotaDois" min="0" max="10"><br><br>
+
+			<label for="xNotaTres">Nota 03</label> 
+			<input type="number" name="nota_03" id="xNotaTres" min="0" max="10"><br><br>
+
+			<input type="submit" value="calcular"><br>
+		</fieldset>
+	</form>
+</body>
+</html>
